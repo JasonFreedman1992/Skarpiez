@@ -1,0 +1,14 @@
+body{
+    background-color: #282c34;
+}
+
+svg {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+text{
+    color: white;
+    fill: white;
+}
+

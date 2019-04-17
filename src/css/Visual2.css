@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+#inputs{
+  margin: 10px;
+}
+
+#response{
+  margin: 100px;
+  color: white;
+  font-size: 18px;
+}
+
+#response-title{
+  color: lightblue;
+}

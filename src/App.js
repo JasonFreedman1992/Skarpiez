@@ -1,26 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+//import logo from '../logo.svg';
+import logo from './logo2.png'
+import { Route } from 'react-router-dom';
+import * as Pages from "./pages/index";
+import './css/App.css';
 
 class App extends Component {
+
+
+
   render() {
+
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <div>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+        <Route path="/" exact component={Pages.Front}/>
+        <Route path="/visual" component={Pages.Visual}/>
+        <Route path="/Crawliez" component={Pages.Crawliez}/>
+    </div>
     );
   }
 }
