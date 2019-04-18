@@ -4,7 +4,6 @@ import logo2 from "../crawliez.png"
 // import '../css/Visual.css';
 import '../css/Visual2.css';
 // import { ContextMenu, MenuItem, ContextMenuTrigger } from "react-contextmenu";
-var d3 = require('d3');
 
 const style = {
     width: 300,

@@ -6,10 +6,6 @@ import { Graph } from 'react-d3-graph';
 import { ContextMenu, MenuItem, ContextMenuTrigger } from "react-contextmenu";
 import { hideContext } from "../js/hideContext";
 import { unhideContext } from "../js/hideContext";
-
-
-var fs = require('fs');
-var d3 = require('d3');
  
 var mouseX = 0;
 var mouseY = 0;
